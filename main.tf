@@ -1,4 +1,4 @@
-resource "aws_lightsail_instance" "custom" {
+resource "aws_lightsail_instance" "custom1" {
   name              = "custom"
   availability_zone = "us-east-1b"
   blueprint_id      = "amazon_linux_2"
